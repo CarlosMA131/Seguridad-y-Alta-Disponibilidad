@@ -1,1 +1,1 @@
-# Asig Seguridad y Alta Disponibilidad
+# Seguridad y Alta Disponibilidad
