@@ -1,4 +1,4 @@
-# Seguridad y Alta Disponibilidad
+# Seguridad y Alta Disponibilidad <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"></h1>
 
 <div align="Center">
 
