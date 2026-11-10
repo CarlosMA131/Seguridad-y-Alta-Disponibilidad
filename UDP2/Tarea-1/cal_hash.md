@@ -45,6 +45,7 @@ sha256sum: c.txt: No existe el archivo o el directorio
 c.txt: FAILED open or read
 sha256sum: ATENCIÓN: no se pudo leer 1 fichero listado
 
+![Captura de la verificación con c.txt eliminado](capturas/tarea2_p2.png)
 
 En el anterior apartado dice que el hash no coincide y ahora es que directamente no encuentra el archivo
 
@@ -71,6 +72,8 @@ Autenticidad: Propiedad que valida la identidad del creador o emisor del fichero
 
 Comprobación del hash
 
+![Captura de la verificación de la descarga](capturas/tarea3_p1.png)
+
 
 # Apartado 4. Verificación de paquetes
 
@@ -79,13 +82,23 @@ que indica el repositorio?
 
 si coincide con la del repositorio.
 
+![Información del paquete nginx y su hash en APT](capturas/tarea4-1.png)
+
+![Cálculo del SHA-256 del paquete descargado](capturas/tarea4-2.png)
 
 # 4.2. Verificación de paquetes instalados
+
+![Actualización de los índices de paquetes](capturas/tarea4.png)
 
 ## Apartado 3
 
 Esto indica que el archivo instalado difiere del original del paquete. La copia de seguridad conserva el binario correcto y permite restaurarlo.
 
+![Detección de la modificación del paquete tree](capturas/tarea4.2-3.png)
+
+![Verificación del paquete tree con debsums](capturas/tarea4.2.png)
+
+![Verificación final del paquete tree](capturas/tarea4.2-4.png)
 
 ## 4.3. Preguntas
 
@@ -113,6 +126,7 @@ $j9T$ --> parametros de configuración
 $C6Lp2nDv2pgf41.3aqrCf1$ --> salt
 $EmdMqCeOcLCPvAIGEuAylHkezVwecMnSkv3rjKmOPRD$ --> hash resultante
 
+![Contenido de /etc/shadow del usuario alumno_hash](capturas/tarea5-5.png)
 
 ## Hash de la misma contraseña
 carlos@carlos-VirtualBox:~$ openssl passwd -6 Hash2026!
@@ -122,6 +136,8 @@ $6$Oz6cpaAvlZl4KLgi$MReyJuK656bJyCYEIZomqsQDT.7anBXR6D7QF2eHQUJzxJXB211Mtp23k9BN
 carlos@carlos-VirtualBox:~$ 
 
 Los hash nunca seran iguales porque cada vez se generara uno nuevo por tema de seguridad de que no pueden haber dos hash iguales.
+
+![Generación de dos hashes para la misma contraseña](capturas/tarea5.png)
 
 ### apartado 4
 carlos@carlos-VirtualBox:~$ openssl passwd -salt C6Lp2nDv2pgf41.3aqrCf1 -6 Hash2026!
