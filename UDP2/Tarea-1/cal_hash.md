@@ -134,3 +134,17 @@ si obtine la misma salt que el usuario alumno
 solo los dos primeros parametros son iguales, todo los demas es diferente al primer usuario, lo que no cambia son las fechas de minimo y maximo y el cambio de contraseña.
 
 
+## Preguntas:
+
+a) ¿Por qué se usan algoritmos como yescrypt o bcrypt en lugar de SHA‑256 para
+contraseñas?
+
+Es una tabla de consultas precalculadas que asig
+
+
+
+b) ¿Qué es una rainbow table y cómo lo neutraliza la sal?
+
+Una tabla rainbow es una tabla de consulta precalculada que asigna valores hash a sus entradas de texto plano originales. En lugar de calcular el hash de cada contraseña posible durante un ataque.
+La defensa es el salteo,  agregar un valor aleatorio a cada contraseña antes de aplicarle el hash.
+
