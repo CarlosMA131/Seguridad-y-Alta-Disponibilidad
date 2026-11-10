@@ -2,15 +2,15 @@
 
 ## Índice
 
-1. [Apartado 1. Cálculo de hashes](#apartado-1-cálculo-de-hashes)
-   1. [Cambio de un carácter](#cambio-de-un-carácter)
-   2. [`echo` y `echo -n`](#echo-y-echo--n)
-   3. [Preguntas](#preguntas)
-2. [Apartado 2. Verificación de archivos](#apartado-2-verificación-de-archivos)
-3. [Apartado 3. Verificación de una descarga real](#apartado-3-verificación-de-una-descarga-real)
-4. [Apartado 4. Verificación de paquetes](#apartado-4-verificación-de-paquetes)
-   1. [Apartado 4.2. Verificación de paquetes instalados](#apartado-42-verificación-de-paquetes-instalados)
-5. [Apartado 5. Hashes de contraseñas en Linux](#apartado-5-hashes-de-contraseñas-en-linux)
+1. Apartado 1. Cálculo de hashes
+   1. Cambio de un carácter
+   2. `echo` y `echo -n`
+   3. Preguntas
+2. Apartado 2. Verificación de archivos
+3. Apartado 3. Verificación de una descarga real
+4. Apartado 4. Verificación de paquetes
+   1. Apartado 4.2. Verificación de paquetes instalados
+5. Apartado 5. Hashes de contraseñas en Linux
 
 ## Apartado 1. Cálculo de hashes
 
